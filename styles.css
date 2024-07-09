@@ -26,6 +26,7 @@ h1 {
   border-radius: 5%;
   margin-top: 20px;
   animation: bounce 2s infinite;
+  width: 300px;
 }
 
 @keyframes fadeIn {
@@ -45,14 +46,14 @@ h1 {
   50%,
   80%,
   100% {
-    transform: translateY(0);
+    transform: rotate(-15deg);
   }
 
   40% {
-    transform: translateY(-30px);
+    transform: rotate(0);
   }
 
   60% {
-    transform: translateY(-15px);
+    transform: rotate(15deg);
   }
 }
