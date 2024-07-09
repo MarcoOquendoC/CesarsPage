@@ -23,9 +23,7 @@ h1 {
 }
 
 .profile-pic {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  border-radius: 5%;
   margin-top: 20px;
   animation: bounce 2s infinite;
 }
